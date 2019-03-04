@@ -1410,3 +1410,11 @@ Processing by SearchesController#search as HTML
 Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 126.2.63.14 at 2019-03-04 22:04:33 +0000
+Cannot render console from 126.2.63.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=XGTDPDYBZ3JMWRTYD1QBNLEDALZFSVC51NVW0KNCUHUCF0LN&response_type=code&redirect_uri=http%3A%2F%2F165.227.31.156%3A39345%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
