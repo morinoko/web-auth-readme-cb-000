@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   post '/search', to: 'searches#foursquare'
   get '/friends', to: 'searches#friends'
   get '/auth', to: 'sessions#create'
-  
+
 
 end
